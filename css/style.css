@@ -1056,14 +1056,26 @@ a.download-link span i {
   background-size: cover;
 }
 
+.text-mt {
+  margin-top: 10px;
+}
+
+.title-mb:after {
+  bottom: -10px !important;
+}
+
 .pt-bkg02 {
-  background-image: url("../img/pics/page-title02.jpg");
+  background-image: url("../img/userx/about/page-title.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.custom-div {
+  margin-top: 20px;
+}
+
 .pt-bkg03 {
-  background-image: url("../img/pics/page-title03.jpg");
+  background-image: url("../img/userx/service/page-title.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1093,7 +1105,7 @@ a.download-link span i {
 }
 
 .pt-bkg08 {
-  background-image: url("../img/pics/page-title08.jpg");
+  background-image: url("../img/userx/contact/page-title.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1669,7 +1681,7 @@ blockquote {
   content: "";
   width: 40px;
   height: 3px;
-  bottom: 0;
+  bottom: -10px;
   left: 50%;
   margin-left: -20px;
 }
@@ -2130,6 +2142,10 @@ blockquote {
 .service-feature-box .service-body {
   background-color: #fff;
   padding: 36px;
+}
+
+.text-mt-top {
+  margin-top: 20px;
 }
 
 /*
