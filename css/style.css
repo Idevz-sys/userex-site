@@ -2059,6 +2059,10 @@ blockquote {
   text-align: center;
 }
 
+.hidden-responsive {
+  display: none;
+}
+
 /*  7.18. PROMO BOXES
     ------------------------------------------------------------------------- */
 .promo-box {
