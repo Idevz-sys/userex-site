@@ -1186,8 +1186,17 @@ a.download-link span i {
   padding-bottom: 120px;
 }
 
+.custom-map {
+  width: 100%;
+}
+
+.custom-map iframe {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .img-bkg01 {
-  background-image: url("../img/userx/home/caminhao.jpg");
+  background-image: url("../img/userx/home/caminhao.png");
 }
 
 .img-bkg02 {
