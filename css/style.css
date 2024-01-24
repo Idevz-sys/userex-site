@@ -1182,6 +1182,22 @@ a.download-link span i {
   padding: 120px 70px;
 }
 
+.about-icon-size {
+  font-size: 60px !important;
+  height: 60px !important;
+}
+
+.about-icon-size-old {
+  font-size: 45px !important;
+  height: 45px !important;
+}
+
+.icon-about-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
 .custom-col-padding-bottom {
   padding-bottom: 120px;
 }
