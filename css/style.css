@@ -573,9 +573,9 @@ a.download-link span i {
   background: none;
 }
 
-#dl-menu {
+/* #dl-menu {
   display: none;
-}
+} */
 
 .navbar-nav > li {
   padding-bottom: 0;
@@ -830,9 +830,14 @@ a.download-link span i {
   overflow: hidden;
 }
 
+.dl-menuopen li {
+  text-wrap: nowrap;
+}
+
 @media (max-width: 767px) {
   .navbar-collapse {
     padding-right: 0 !important;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
   }

@@ -918,9 +918,9 @@ Responsive template styles
 /* ========================================================================== 
    RESPONSIVE NAVIGATION
 ============================================================================= */
-#dl-menu {
+/* #dl-menu {
   display: none;
-}
+} */
 
 .dl-menuwrapper {
   width: 100%;
@@ -1038,7 +1038,7 @@ Responsive template styles
 .dl-menuwrapper .dl-menu {
   margin: 5px 0 0 0;
   position: absolute;
-  width: 100%;
+  width: auto;
   opacity: 0;
   pointer-events: none;
   -webkit-transform: translateY(10px);
@@ -1047,6 +1047,61 @@ Responsive template styles
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  right: 0px;
+}
+
+@media (max-width: 767px) {
+  .dl-menuwrapper .dl-menu {
+    width: auto;
+    right: 0px;
+  }
+}
+
+@media (max-width: 319px) {
+  .navbar-collapse {
+    float: none;
+    text-align: center;
+  }
+
+  .main-nav {
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .header-wrapper {
+    position: inherit;
+  }
+
+  .dl-menuwrapper button:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .dl-menuwrapper .dl-menu {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .dl-menuwrapper {
+    display: block;
+  }
+
+  .navbar-header {
+    padding-left: 0px;
+  }
+
+  .logo a {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .dl-menuwrapper .dl-menu.dl-menu-toggle {
@@ -1386,11 +1441,19 @@ All this is done for any sub-level being entered.
 
   .navbar-header {
     padding-left: 0;
+    float: left;
   }
 
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-default .navbar-collapse {
+      width: auto;
+      padding-top: 20px !important;
+    }
   }
 
   .logo img {
@@ -1891,12 +1954,13 @@ All this is done for any sub-level being entered.
 
   .navbar-header {
     padding-left: 0;
+    float: left;
   }
 
-  .navbar-default .navbar-collapse,
+  /* .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     width: 100%;
-  }
+  } */
 
   .logo img {
     margin: 0 auto 15px;
@@ -2393,12 +2457,13 @@ All this is done for any sub-level being entered.
 
   .navbar-header {
     padding-left: 0;
+    float: left !important;
   }
 
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     width: auto;
-    min-width: 450px;
+    /* min-width: 450px; */
     padding-top: 20px;
   }
 
