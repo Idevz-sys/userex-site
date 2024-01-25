@@ -356,6 +356,9 @@ Responsive template styles
   .col-md-offset-2 {
     margin-left: 16.66666667%;
   }
+  .col-md-offset-custom-right {
+    margin-right: 16.66666667%;
+  }
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
