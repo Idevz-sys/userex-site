@@ -830,6 +830,14 @@ a.download-link span i {
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-right: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .imagem-animated {
   width: 100%;
   height: auto;
