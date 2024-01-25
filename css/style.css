@@ -827,6 +827,21 @@ a.download-link span i {
   display: table;
   margin: 0 auto 20px;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.imagem-animated {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.imagem-animated:hover {
+  transform: scale(1.1);
+}
+
+.custom-hover:hover {
+  color: #d86c00;
 }
 
 .header-style02 .navbar-default .navbar-nav > li > a {
