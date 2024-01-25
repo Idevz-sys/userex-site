@@ -1067,6 +1067,14 @@ Responsive template styles
     text-align: center;
   }
 
+  .services-negative-top {
+    margin-top: 0 !important;
+  }
+
+  .page-content.parallax {
+    padding-top: 34px;
+  }
+
   .responsive-fa-ul {
     margin-left: 5px !important;
   }
