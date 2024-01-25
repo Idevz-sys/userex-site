@@ -814,6 +814,19 @@ a.download-link span i {
   background: none;
 }
 
+.effect-grass {
+  background: rgb(255 255 255 / 57%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px 1px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(4.599999999999994px) !important;
+  -webkit-backdrop-filter: blur(5.6px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.effect-grass a {
+  color: black !important;
+}
+
 .header-style02 .navbar-default .navbar-nav > li > a:hover,
 .header-style02 .nav > li.current-menu-item > a {
   border: none;
