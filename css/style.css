@@ -822,7 +822,7 @@ a.download-link span i {
 }
 
 .custom-icon {
-  width: 326px;
+  max-width: 326px;
   height: 139px;
   display: table;
   margin: 0 auto 20px;

@@ -1067,6 +1067,10 @@ Responsive template styles
     text-align: center;
   }
 
+  .responsive-fa-ul {
+    margin-left: 5px !important;
+  }
+
   .main-nav {
     margin-top: 0px;
     padding-bottom: 20px;
@@ -1101,6 +1105,26 @@ Responsive template styles
   .logo a {
     display: flex;
     justify-content: center;
+  }
+
+  .service-icon-left-boxed .service-details {
+    padding-left: 0px;
+  }
+
+  .service-icon-left-boxed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+  }
+
+  .service-details p,
+  .service-details h3 {
+    text-align: center;
+  }
+
+  .custom-col-padding-both {
+    padding: 10px 10px;
   }
 }
 
