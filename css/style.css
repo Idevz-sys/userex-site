@@ -189,6 +189,19 @@ a:active {
   outline: 0;
 }
 
+.center-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .center-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* ==========================================================================
     2. DOCUMENT STYLES
     ========================================================================= */
@@ -806,6 +819,14 @@ a.download-link span i {
   border: none;
   border-bottom: none;
   border-color: transparent;
+}
+
+.custom-icon {
+  width: 326px;
+  height: 139px;
+  display: table;
+  margin: 0 auto 20px;
+  border-radius: 5px;
 }
 
 .header-style02 .navbar-default .navbar-nav > li > a {
